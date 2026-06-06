@@ -14,6 +14,9 @@ CUSTOM_IMAGES: frozenset[str] = frozenset({
     "hero-grenada.png",
     "grenada-cruise-port.png",
     "grand-anse-beach-hero.png",
+    "grenada-waterfalls.png",
+    "grenada-spice-island.png",
+    "grenada-rainforest.png",
     "grenada-faq.png",
 })
 
