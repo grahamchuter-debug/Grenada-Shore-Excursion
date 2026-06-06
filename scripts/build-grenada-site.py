@@ -49,8 +49,7 @@ FAQ_IMG = "images/grenada-faq.png"
 FAQ_ALT = "Cruise passengers exploring St George's Grenada"
 INTRO_IMG = "images/grenada-intro.png"
 INTRO_ALT = (
-    "Grenada shore excursions with Grand Anse Beach, rainforest waterfalls, "
-    "spice plantations and St George's harbour"
+    "Colourful St George's harbour and hillside in Grenada, gateway to shore excursions"
 )
 
 
