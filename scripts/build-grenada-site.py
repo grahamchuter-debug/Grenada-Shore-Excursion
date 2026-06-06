@@ -18,7 +18,7 @@ HERO_GRADIENT = (
 ACCENT = "text-amber-200"
 
 HOME_HERO = "images/hero-grenada.png"
-HOME_HERO_ALT = "Grand Anse Beach and turquoise water in Grenada"
+HOME_HERO_ALT = "Aerial view of Grand Anse Beach with lush green hills and turquoise water in Grenada"
 BEST_IMG = "images/best-grenada-excursions.png"
 BEST_ALT = "Best Grenada shore excursions including beaches waterfalls and spice island tours"
 PORT_IMG = "images/grenada-cruise-port.png"
@@ -1181,7 +1181,7 @@ def main() -> None:
     "build": "python3 scripts/build-grenada-site.py",
     "images": "python3 scripts/fetch-grenada-images.py",
     "deploy": "wrangler deploy",
-    "preview": "python3 -m http.server 8906"
+    "preview": "python3 -m http.server 8910"
   },
   "devDependencies": {
     "wrangler": "^4.94.0"

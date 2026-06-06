@@ -5,7 +5,7 @@
     "build": "python3 scripts/build-grenada-site.py",
     "images": "python3 scripts/fetch-grenada-images.py",
     "deploy": "wrangler deploy",
-    "preview": "python3 -m http.server 8906"
+    "preview": "python3 -m http.server 8910"
   },
   "devDependencies": {
     "wrangler": "^4.94.0"
