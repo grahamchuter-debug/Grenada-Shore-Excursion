@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "grenada-shore-excursion",
+  "compatibility_date": "2026-06-06",
+  "observability": { "enabled": true },
+  "assets": { "directory": "." },
+  "routes": [
+    {
+      "pattern": "grenadashoreexcursion.com",
+      "custom_domain": true
+    }
+  ]
+}

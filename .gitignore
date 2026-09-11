@@ -1,3 +1,10 @@
 node_modules/
-.DS_Store
 .wrangler/
+.DS_Store
+.css-cache/
+__pycache__/
+*.pyc
+.dev.vars
+.env
+.env.*
+images/review/

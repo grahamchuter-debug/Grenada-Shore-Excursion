@@ -1,0 +1,102 @@
+[
+  {
+    "path": "/",
+    "file": "index.html",
+    "kind": "home"
+  },
+  {
+    "path": "/best-grenada-shore-excursions",
+    "file": "best-grenada-shore-excursions/index.html",
+    "kind": "hub"
+  },
+  {
+    "path": "/grenada-cruise-port-guide",
+    "file": "grenada-cruise-port-guide/index.html",
+    "kind": "guide"
+  },
+  {
+    "path": "/one-day-in-grenada",
+    "file": "one-day-in-grenada/index.html",
+    "kind": "guide"
+  },
+  {
+    "path": "/grand-anse-beach-excursions",
+    "file": "grand-anse-beach-excursions/index.html",
+    "kind": "attraction"
+  },
+  {
+    "path": "/best-beaches-in-grenada",
+    "file": "best-beaches-in-grenada/index.html",
+    "kind": "decision"
+  },
+  {
+    "path": "/grenada-waterfall-tours",
+    "file": "grenada-waterfall-tours/index.html",
+    "kind": "attraction"
+  },
+  {
+    "path": "/grenada-spice-island-tours",
+    "file": "grenada-spice-island-tours/index.html",
+    "kind": "attraction"
+  },
+  {
+    "path": "/grenada-rainforest-tours",
+    "file": "grenada-rainforest-tours/index.html",
+    "kind": "attraction"
+  },
+  {
+    "path": "/grenada-chocolate-rum-tours",
+    "file": "grenada-chocolate-rum-tours/index.html",
+    "kind": "attraction"
+  },
+  {
+    "path": "/grenada-island-sightseeing-tours",
+    "file": "grenada-island-sightseeing-tours/index.html",
+    "kind": "attraction"
+  },
+  {
+    "path": "/grenada-snorkelling-tours",
+    "file": "grenada-snorkelling-tours/index.html",
+    "kind": "attraction"
+  },
+  {
+    "path": "/grenada-private-tours",
+    "file": "grenada-private-tours/index.html",
+    "kind": "attraction"
+  },
+  {
+    "path": "/grenada-family-excursions",
+    "file": "grenada-family-excursions/index.html",
+    "kind": "attraction"
+  },
+  {
+    "path": "/grenada-faq",
+    "file": "grenada-faq/index.html",
+    "kind": "support"
+  },
+  {
+    "path": "/contact",
+    "file": "contact/index.html",
+    "kind": "trust"
+  },
+  {
+    "path": "/about",
+    "file": "about/index.html",
+    "kind": "trust"
+  },
+  {
+    "path": "/privacy",
+    "file": "privacy/index.html",
+    "kind": "trust"
+  },
+  {
+    "path": "/terms",
+    "file": "terms/index.html",
+    "kind": "trust"
+  },
+  {
+    "path": "/methodology",
+    "file": "methodology/index.html",
+    "kind": "trust"
+  }
+]
