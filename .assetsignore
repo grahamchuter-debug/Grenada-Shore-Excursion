@@ -3,6 +3,8 @@ node_modules
 .git
 _legacy_phase16a
 scripts
+shared
+workers
 images/quarantine
 images/review
 __pycache__
@@ -16,6 +18,7 @@ wrangler.jsonc
 worker.js
 deploy.sh
 tailwind.config.js
+tsconfig.json
 .gitignore
 .assetsignore
 .dev.vars

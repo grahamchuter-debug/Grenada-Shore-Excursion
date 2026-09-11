@@ -150,12 +150,18 @@ def home() -> PageTuple:
     </p>
     <p class="text-gray-600 leading-relaxed mb-8">
       Eastern Caribbean dollars are official; USD is commonly accepted at tourist-facing points.
-      Use this site to pick a coherent theme for the day, then confirm live ship times and any
-      operator details independently — we do not publish fares, product codes or booking checkouts.
+      Use this site to pick a coherent theme for the day, then confirm live ship times independently.
+      You can request <a href="/book/grenadas-spice-route" class="text-ocean-600 font-medium">Grenada's Spice Route</a>
+      online when a spice-focused half-day fits your call.
     </p>
-    <a href="/best-grenada-shore-excursions" class="btn-ocean inline-flex items-center gap-2 text-white font-semibold px-7 py-3.5 rounded-full text-sm shadow-lg">
-      Explore decision groups
-    </a>
+    <p class="flex flex-wrap gap-3 mb-2">
+      <a href="/best-grenada-shore-excursions" class="btn-ocean inline-flex items-center gap-2 text-white font-semibold px-7 py-3.5 rounded-full text-sm shadow-lg">
+        Explore decision groups
+      </a>
+      <a href="/book/grenadas-spice-route" class="inline-flex items-center justify-center font-semibold px-7 py-3.5 rounded-full text-sm border border-ocean-200 text-ocean-700">
+        Book Spice Route
+      </a>
+    </p>
   </div>
   <div class="info-image rounded-3xl aspect-[4/3] shadow-2xl overflow-hidden">
     <img src="{INTRO}" alt="{escape(INTRO_ALT)}" width="800" height="600" loading="eager" decoding="async" />
@@ -298,7 +304,7 @@ def best_excursions() -> PageTuple:
             ("Beach focus", "Grand Anse — transfer from St George's port area"),
             ("Inland themes", "Waterfalls, spice, Grand Etang rainforest"),
             ("Water days", "Snorkel styles — confirm sea conditions and duration"),
-            ("Commerce", "No prices, product codes or checkout on this site"),
+            ("Request option", "Grenada's Spice Route — book from the spice guide"),
         ]
     )
 
@@ -309,6 +315,11 @@ def best_excursions() -> PageTuple:
   St George's and how active you want the afternoon. Stay closer for a calm beach day at Grand Anse;
   commit more road time for waterfalls, spice estates or Grand Etang. Mixing every highlight on a
   short call usually produces rushed photography and a tense return window.
+</p>
+<p class="text-gray-600 leading-relaxed text-lg mb-6">
+  Prefer a guided spice half-day from the pier?
+  <a href="/book/grenadas-spice-route" class="text-ocean-600 font-semibold">Request Grenada's Spice Route</a>
+  online — payment creates a booking request; confirmation follows separately.
 </p>
 ''' + snap)}
 {_section('''
@@ -458,7 +469,8 @@ def best_excursions() -> PageTuple:
         ),
         (
             "Do you sell tours here?",
-            "No. This is an independent planning guide. Use /contact for editorial questions only.",
+            "You can request Grenada's Spice Route online from the spice guide. Other pages remain "
+            "editorial planning guides. Use /contact for general questions.",
         ),
         (
             "Is there one best Grenada excursion?",
@@ -1109,10 +1121,17 @@ def waterfalls() -> PageTuple:
 </p>
 ''' + related_links([
     ("/grenada-rainforest-tours", "Rainforest"),
-    ("/grenada-spice-island-tours", "Spice Island"),
+    ("/grenada-spice-island-tours", "Spice Island guide"),
     ("/one-day-in-grenada", "One day"),
     ("/best-grenada-shore-excursions", "Compare styles"),
 ]))}
+<p class="text-gray-600 leading-relaxed text-sm mt-6 max-w-3xl">
+  Looking for a guided half-day with spice-estate context (and Concord Falls on that itinerary —
+  not Annandale)? See the
+  <a href="/grenada-spice-island-tours" class="text-ocean-600 font-medium">spice island guide</a>
+  or
+  <a href="/book/grenadas-spice-route" class="text-ocean-600 font-medium">request Grenada's Spice Route</a>.
+</p>
 {faq_section([
     (
         "Which waterfall is best on a short cruise call?",
@@ -1172,10 +1191,10 @@ def spice() -> PageTuple:
         css_only=True,
         breadcrumb="Spice Island",
         actions=_cta(
+            "/book/grenadas-spice-route",
+            "Book now",
             "/best-grenada-shore-excursions",
             "Compare styles",
-            "/grenada-rainforest-tours",
-            "Rainforest guide",
         ),
     )
 
@@ -1185,7 +1204,7 @@ def spice() -> PageTuple:
             ("Often combined", "West-coast or Grand Etang style scenic loops"),
             ("Activity", "Low to moderate — walking and listening"),
             ("Not the same as", "Dedicated waterfall or deep rainforest trail days"),
-            ("Verify", "Which estates and tastings are included"),
+            ("Request option", "Grenada's Spice Route — $89 · ages 3+ · about 4 hours"),
         ]
     )
 
@@ -1199,6 +1218,26 @@ def spice() -> PageTuple:
 </p>
 ''' + snap)}
 {_section('''
+<div class="max-w-3xl mb-12">
+  <div class="section-label">Request online</div>
+  <h2 class="text-2xl sm:text-3xl font-display font-bold text-gray-900 mb-4">Grenada's Spice Route</h2>
+  <p class="text-gray-600 leading-relaxed mb-4">
+    A guided half-day scenic and cultural excursion from the cruise ship pier — typically about
+    4 hours — covering Concord Falls, Gouyave, a traditional spice estate, and Grand Etang rainforest
+    / crater lake context. Mona monkeys may be seen; they are not guaranteed. Food and drinks are
+    not included. Optional spice purchases are at your own cost. Moderate walking on mixed surfaces
+    and inclines. This is not an Annandale Falls tour, and it does not claim Fort George or Fort Frederick stops.
+  </p>
+  <p class="text-gray-600 leading-relaxed mb-4">
+    Guests (ages 3+) $89 · ages 0–2 not permitted · guests under 16 must travel with a responsible adult ·
+    maximum 10 guests online. Payment creates a booking request; confirmation is emailed separately.
+    Free cancellation outside 14 days before your excursion; from the 14th day, non-refundable.
+    If we cannot confirm, you receive a full refund to your original payment method.
+  </p>
+  <p class="text-gray-600 leading-relaxed mb-6">
+    <a href="/book/grenadas-spice-route" class="btn-ocean inline-flex items-center gap-2 text-white font-semibold px-7 py-3.5 rounded-full text-sm shadow-lg">Book now</a>
+  </p>
+</div>
 <div class="grid md:grid-cols-2 gap-10">
   <div>
     <div class="section-label">Decision</div>
@@ -1230,16 +1269,21 @@ def spice() -> PageTuple:
   before all-aboard; scenic loops expand easily when every viewpoint becomes a photo stop.
 </p>
 ''' + related_links([
+    ("/book/grenadas-spice-route", "Book Grenada's Spice Route"),
     ("/grenada-chocolate-rum-tours", "Chocolate & rum"),
     ("/grenada-island-sightseeing-tours", "Island sightseeing"),
     ("/one-day-in-grenada", "One day"),
-    ("/grenada-cruise-port-guide", "Port guide"),
 ]))}
 {faq_section([
     (
         "Are spice tours suitable for a short call?",
         "Often yes when the loop is compact and return timing is clear. Verify duration with the "
         "operator against your all-aboard time.",
+    ),
+    (
+        "Can I book Grenada's Spice Route here?",
+        "Yes. Use Book now to request Grenada's Spice Route. Payment creates a request; confirmation "
+        "is emailed separately. If we cannot confirm, you receive a full refund.",
     ),
     (
         "Is a spice tour the same as a rainforest tour?",
@@ -1254,6 +1298,11 @@ def spice() -> PageTuple:
             "Are spice tours suitable for a short call?",
             "Often yes when the loop is compact and return timing is clear. Verify duration with the "
             "operator against your all-aboard time.",
+        ),
+        (
+            "Can I book Grenada's Spice Route here?",
+            "Yes. Use Book now to request Grenada's Spice Route. Payment creates a request; confirmation "
+            "is emailed separately. If we cannot confirm, you receive a full refund.",
         ),
         (
             "Is a spice tour the same as a rainforest tour?",
@@ -1356,6 +1405,14 @@ def rainforest() -> PageTuple:
     ("/grenada-island-sightseeing-tours", "Island sightseeing"),
     ("/grenada-faq", "FAQ"),
 ]))}
+<p class="text-gray-600 leading-relaxed text-sm mt-6 max-w-3xl">
+  Some spice-focused half-days also include Grand Etang context without being a dedicated rainforest hike.
+  See the
+  <a href="/grenada-spice-island-tours" class="text-ocean-600 font-medium">spice island guide</a>
+  or
+  <a href="/book/grenadas-spice-route" class="text-ocean-600 font-medium">request Grenada's Spice Route</a>
+  — that itinerary is not an Annandale waterfall tour.
+</p>
 {faq_section([
     (
         "Is Grand Etang far from the cruise port?",

@@ -26,9 +26,9 @@ BANNED = [
     r'"@type"\s*:\s*"LocalBusiness"',
     r"cagrmsspctor",
     r"cagredtartsnk",
+    r"cagrpvtmsspctor",
     r"shoreexcursionsgroup\.com",
-    r"/book/",
-    r"stripe",
+    r"SEG_MANUAL",
 ]
 
 

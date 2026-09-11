@@ -1,0 +1,36 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "grenada-bookings-test",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "dev": {
+    "ip": "localhost",
+    "port": 8797,
+    "local_protocol": "http"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "grenada-bookings-test",
+      "database_id": "b985e9e5-736f-4ba2-aaca-c7c2c6c3e856",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "vars": {
+    "PAYMENTS_MODE": "test",
+    "BOOKINGS_ENABLED": "true",
+    "EMAIL_SENDING_ENABLED": "false",
+    "EMAIL_FROM": "bookings@notifications.wowatour.com",
+    "EMAIL_FROM_NAME": "Grenada Shore Excursions",
+    "EMAIL_REPLY_TO": "hello@grenadashoreexcursion.com",
+    "CORS_ALLOWED_ORIGINS": "http://localhost:8910,http://127.0.0.1:8910,https://grenadashoreexcursion.com,https://www.grenadashoreexcursion.com",
+    "SITE_BASE_URL": "https://grenadashoreexcursion.com",
+    "ORIGINATING_SITE": "grenadashoreexcursion.com",
+    "ORIGINATING_PORT": "St George's, Grenada",
+    "OPERATOR_PORTAL_BASE_URL": "https://grenada-bookings-test.dark-violet-8d91.workers.dev"
+  }
+}
